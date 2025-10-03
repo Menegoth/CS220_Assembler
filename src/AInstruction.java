@@ -21,6 +21,7 @@ public class AInstruction extends Instruction {
         return binary.toString();
     }
 
+    @Override
     public String toString() {
         return "A-Instruction [Assembly = " + assemblyCode + ", Machine = " + machineCode + "]";
     }
