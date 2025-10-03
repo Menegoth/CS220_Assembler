@@ -1,4 +1,4 @@
-public class Instruction {
+public abstract class Instruction {
     //Pass fields to child classes
     protected String assemblyCode;
     protected String machineCode;
